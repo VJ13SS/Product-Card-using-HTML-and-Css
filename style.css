@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+  width: 100%;
+  border:border-box;
+}
+
+html,body{
+  display:grid;/*makes the body a grid*/
+  place-items:center;
+  height :100%;
+  background-color: orange;
+}
+
+.product{
+  height:350px;
+  width:700px;
+  display:flex;
+  align-items:center;
+  justify-content:center; 
+  border:1px solid black;
+  border-radius:15px;
+}
+
+.product .left{
+  background-color:white;
+  height:100%;
+  width:50%;
+  border-radius:15px 0 0 15px;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  align-items:center;
+  z-index:12;
+}
+
+.left .name{
+  font-size:15px;
+  font-weight:bold;
+  color:black;
+}
+
+.left .stars{
+  color:orange;
+  font-size:20px;
+}
+
+.left .about{
+  text-align:center;
+  color:grey;
+  font-size:15px;
+  font-weight:500;
+}
+
+.left .price button{
+  margin-top:15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color:orange;
+  border:none;
+  color:white;
+  border-radius:15px;
+  transition:all 0.5s ease;
+}
+
+.left .price button:hover{
+  background-color:#ffaa00;
+}
+.price button h1{
+  margin-left:5px;
+}
+
+.right {
+  height:100%;
+  width:50%;
+  background-image:url("IMG_20240510_174227.jpg");
+  background-position:center;
+  background-size:cover;
+  border-radius: 0 15px 15px 0;
+}
+
+
+.right ul{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-between;
+  background-color:rgba(0,0,0,0.8);
+  border-radius:15px;
+  height:100%;
+  width:89%;
+  color:white;
+  text-align:left;
+  margin-top:0px;
+ margin-left:-351px;
+  transition: 0.4s;
+}
+
+.right:hover ul{
+  margin-left:0px;/* returns to its original position*/
+}
