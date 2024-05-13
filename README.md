@@ -1,1 +1,6 @@
 # Product-Card-using-HTML-and-Css
+
+This is just a simple project focussed on developing a simple product card using HTML and CSS...
+The project do deals with the basics of HTML amd CSS and do serves as a good coding exercise..Do try  it out...
+
+Follow me on LinkedIn --> Viswajith S
